@@ -11,7 +11,7 @@ const productList = document.getElementById("product-list");
 const cartDisplay = document.getElementById("cart-count");
 const popup = document.getElementById("popup");
 
-// Create product cards dynamically
+
 products.forEach(product => {
 
     const card = document.createElement("div");
